@@ -1,0 +1,8 @@
+synthetic_image_detection/
+│
+├── app.py                # Main Streamlit app
+├── model/                # Directory for model-related files
+│   └── classifier.py     # Model definition and loading
+├── utils/                # Utilities for data processing and augmentation
+│   └── augmentation.py   # Augmentation functions
+└── data/                 # Optional: Directory for any sample images
