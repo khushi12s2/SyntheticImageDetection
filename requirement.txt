@@ -1,0 +1,25 @@
+synthetic_image_detection/
+│
+├── data/                         # For input and output data
+│   ├── real_images/              # Folder for real images
+│   ├── synthetic_images/         # Folder for synthetic images (from StyleGAN)
+│   └── processed/                # Preprocessed or augmented images
+│
+├── models/                       # For models
+│   ├── stylegan_generator.py     # Script for generating synthetic images
+│   ├── meta_ai_utils.py          # Meta AI utilities (e.g., DINO or SAM)
+│   ├── classifier.py             # Model for classifying synthetic vs real
+│   └── checkpoints/              # Folder for saved model checkpoints
+│
+├── utils/                        # Utility scripts
+│   ├── augmentation.py           # For data augmentation
+│   ├── preprocessing.py          # For preprocessing pipelines
+│   └── evaluation.py             # For evaluating model performance
+│
+├── scripts/                      # Scripts for running specific tasks
+│   ├── generate_synthetic_data.py # Script for generating synthetic images
+│   ├── train_classifier.py       # Script for training classifier
+│   └── test_pipeline.py          # Script for end-to-end testing
+│
+└── requirements.txt              # Dependencies
+                 # Optional: Directory for any sample images
