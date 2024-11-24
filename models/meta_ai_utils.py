@@ -1,6 +1,6 @@
-from torchvision import models, transforms
-import torch
-from PIL import Image
+from torchvision import models, transforms # type: ignore
+import torch # type: ignore
+from PIL import Image # type: ignore
 
 class MetaFeatureExtractor:
     def __init__(self):
