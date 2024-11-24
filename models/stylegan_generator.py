@@ -24,3 +24,4 @@ def generate_images(output_dir, num_images=100, seed=None):
 
 if __name__ == "__main__":
     generate_images(output_dir="./data/synthetic_images", num_images=50)
+
