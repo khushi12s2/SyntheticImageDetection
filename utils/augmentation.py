@@ -1,8 +1,8 @@
-from albumentations import ( # type: ignore
+from albumentations import ( 
     Compose, RandomCrop, HorizontalFlip, RandomBrightnessContrast, GaussianBlur
 )
-from albumentations.pytorch import ToTensorV2 # type: ignore
-import cv2 # type: ignore
+from albumentations.pytorch import ToTensorV2 
+import cv2 
 import os
 
 def augment_image(image_path, output_dir):
