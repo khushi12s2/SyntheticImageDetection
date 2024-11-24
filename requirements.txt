@@ -1,6 +1,12 @@
+numpy
+pandas
 torch
 torchvision
+tensorflow
+scikit-learn
 albumentations
-opencv-python
-Pillow
-stylegan2-pytorch
+matplotlib
+seaborn
+tqdm
+stylegan
+meta-ai-tools
