@@ -9,4 +9,4 @@ matplotlib
 seaborn
 tqdm
 stylegan2-torch
-meta-ai-tools
+meta-ai-api
