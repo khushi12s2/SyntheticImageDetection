@@ -8,5 +8,5 @@ albumentations
 matplotlib
 seaborn
 tqdm
-stylegan
+stylegan2-torch
 meta-ai-tools
