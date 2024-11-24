@@ -1,9 +1,9 @@
-import torch
-from torchvision.utils import save_image
+import torch # type: ignore
+from torchvision.utils import save_image # type: ignore
 import os
 
 # Load a pretrained StyleGAN2 generator
-from stylegan2_pytorch import ModelLoader  # Install 'stylegan2-pytorch'
+from stylegan2_pytorch import ModelLoader  # type: ignore # Install 'stylegan2-pytorch'
 
 def generate_images(output_dir, num_images=100, seed=None):
     # Set random seed
