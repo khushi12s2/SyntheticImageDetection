@@ -1,1 +1,2 @@
 # SyntheticImageDetection
+this new project 
