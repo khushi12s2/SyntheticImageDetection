@@ -2,8 +2,8 @@ import torch
 import torch.optim as optim
 from torch.utils.data import DataLoader
 from torch.nn import BCELoss
-from src.data_processing import SyntheticDataset, get_transforms
-from src.model import CNNModel
+from src.data_processing import SyntheticDataset, get_transforms # type: ignore
+from src.model import CNNModel # type: ignore
 
 # Paths and labels
 real_images = ["data/real/" + f for f in os.listdir("data/real/")]
