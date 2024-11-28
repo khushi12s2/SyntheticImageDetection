@@ -2,7 +2,7 @@ from fastapi import APIRouter, File, UploadFile
 from PIL import Image
 import torch
 from app.models.detector_model import load_model, detect_image
-from app.utils.preprocess import preprocess_image
+from app.utils.preprocess import preprocess_image 
 
 router = APIRouter()
 
