@@ -1,5 +1,5 @@
-# src/model.py
 import torch.nn as nn
+import torch
 
 class CNNModel(nn.Module):
     def __init__(self):
@@ -17,10 +17,13 @@ class CNNModel(nn.Module):
             nn.Linear(64 * 32 * 32, 128),
             nn.ReLU(),
             nn.Linear(128, 1),
-            nn.Sigmoid()  # Sigmoid for binary classification (real vs synthetic)
+            nn.Sigmoid()
         )
 
     def forward(self, x):
         x = self.conv_layers(x)
         x = self.fc_layers(x)
         return x
+
+# Instantiate the model
+model = CNNModel()
