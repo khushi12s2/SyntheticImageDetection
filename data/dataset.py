@@ -5,8 +5,8 @@ from torch.utils.data import Dataset
 from torchvision import transforms
 
 # Define paths
-real_dir = "C:\Users\shoum\OneDrive\Desktop\SyntheticImageDetection\SyntheticImageDetection\data\real"
-synthetic_dir = "C:\Users\shoum\OneDrive\Desktop\SyntheticImageDetection\SyntheticImageDetection\data\synthetic"
+real_dir = "C:\\Users\\shoum\\OneDrive\\Desktop\\SyntheticImageDetection\\SyntheticImageDetection\\data\\real"
+synthetic_dir = "C:\\Users\\shoum\\OneDrive\\Desktop\\SyntheticImageDetection\\SyntheticImageDetection\\data\\synthetic"
 
 # Load image paths
 real_images = [os.path.join(real_dir, f) for f in os.listdir(real_dir)]
