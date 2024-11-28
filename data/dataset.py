@@ -14,7 +14,7 @@ synthetic_images = [os.path.join(synthetic_dir, f) for f in os.listdir(synthetic
 
 # Assign labels (0 for real, 1 for synthetic)
 image_paths = real_images + synthetic_images
-labels = [0] * len(real_images) + [1] * len(synthetic_images]
+labels = [0] * len(real_images) + [1] * len(synthetic_images)
 
 # Define custom dataset
 class SyntheticImageDataset(Dataset):
